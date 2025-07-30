@@ -1,0 +1,60 @@
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content
+/web/sites/*/files
+/web/sites/*/private
+
+# Ignore multi-site test environment
+/web/sites/simpletest
+
+# Ignore core when managing all of your dependencies with Composer
+/web/core
+
+# Ignore dependencies that are managed with Composer
+/vendor
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+/web/libraries
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore SimpleTest multi-site environment
+sites/simpletest
+
+# Ignore .env files as they are personal
+/.env
+/.env.local
+/.env.*.local
+
+# Ignore build artifacts
+/build
+/tmp
+
+# Ignore Composer's files
+composer.phar
+/web/composer.json
+/web/composer.lock
+
+# Ignore configuration files that may contain sensitive information
+*.local.php
+
+# Ignore cache, log and temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
