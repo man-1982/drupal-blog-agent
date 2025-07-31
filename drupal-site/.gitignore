@@ -88,3 +88,8 @@ Thumbs.db
 # Unit test results folder
 /test-results/
 /web/sites/simpletest/
+/web/example.gitignore
+/web/INSTALL.txt
+/web/README.md
+/web/.htaccess
+/web/.ht.router.php
