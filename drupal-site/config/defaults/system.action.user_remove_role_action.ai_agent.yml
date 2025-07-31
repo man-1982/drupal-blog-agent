@@ -1,0 +1,14 @@
+uuid: 19dfbae5-da3e-4780-97ac-2d2967955524
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ai_agent
+  module:
+    - user
+id: user_remove_role_action.ai_agent
+label: 'Remove the AI Agent role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ai_agent

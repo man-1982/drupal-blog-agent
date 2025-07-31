@@ -1,0 +1,14 @@
+uuid: b34623d7-4f14-4560-b3e2-45dd5c2490e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ai_agent
+  module:
+    - user
+id: user_add_role_action.ai_agent
+label: 'Add the AI Agent role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ai_agent

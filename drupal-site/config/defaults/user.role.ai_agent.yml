@@ -1,0 +1,9 @@
+uuid: d49b2a6e-0b0f-426c-a011-9f8e26efa0c7
+langcode: en
+status: true
+dependencies: {  }
+id: ai_agent
+label: 'AI Agent'
+weight: 4
+is_admin: false
+permissions: {  }
