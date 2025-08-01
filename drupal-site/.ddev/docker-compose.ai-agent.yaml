@@ -1,0 +1,6 @@
+services:
+  ai-agent:
+    build:
+      context: ../../ai-agent
+      dockerfile: Dockerfile
+    tty: true
